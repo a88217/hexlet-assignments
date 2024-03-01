@@ -24,7 +24,6 @@ public abstract class CarMapper {
 
     public abstract CarDTO map(Car car);
 
-    // Остальные методы
     public abstract void update(CarUpdateDTO dto, @MappingTarget Car model);
 }
 // END
